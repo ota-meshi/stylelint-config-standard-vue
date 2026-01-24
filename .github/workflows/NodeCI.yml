@@ -44,7 +44,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install Packages
         run: npm i -f
-      - name: Install stylelint@16
+      - name: Install stylelint@16 -f
         run: npm install stylelint@16
       - name: Test
         run: npm test
@@ -61,7 +61,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install Packages
         run: npm i -f
-      - name: Install stylelint@15
+      - name: Install stylelint@15 -f
         run: npm install stylelint@15
       - name: Test
         run: npm test
