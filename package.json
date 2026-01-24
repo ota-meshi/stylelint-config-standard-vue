@@ -28,23 +28,24 @@
     "stylelint-config-standard": ">=24.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=14.0.0",
-    "postcss-html": "^1.0.0"
+    "postcss-html": "^1.0.0",
+    "stylelint": ">=14.0.0"
   },
   "devDependencies": {
-    "@ota-meshi/eslint-plugin": "^0.13.0",
-    "eslint": "^8.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-json-schema-validator": "^4.0.0",
+    "@eslint-community/eslint-plugin-eslint-comments": "^4.3.0",
+    "@ota-meshi/eslint-plugin": "^0.20.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.0.0",
+    "eslint-plugin-jsdoc": "^62.4.0",
+    "eslint-plugin-json-schema-validator": "^6.0.0",
     "eslint-plugin-jsonc": "^2.0.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-regexp": "^1.5.0",
+    "eslint-plugin-n": "^17.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-regexp": "^2.5.0",
     "eslint-plugin-vue": "^9.0.0",
     "eslint-plugin-yml": "^1.0.0",
     "mocha": "^10.0.0",
-    "prettier": "^2.4.1"
+    "prettier": "^3.0.0"
   },
   "repository": {
     "type": "git",

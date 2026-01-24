@@ -12,10 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with:
-          node-version: 16
       - name: Install Packages
-        run: npm i --legacy-peer-deps
+        run: npm i -f
       - name: Lint
         run: npm run lint
   test:
@@ -30,6 +28,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install Packages
-        run: npm i --legacy-peer-deps
+        run: npm i -f
+      - name: Install stylelint-config-standard
+        run: npm install stylelint-config-standard@29 -f
       - name: Test
         run: npm test
