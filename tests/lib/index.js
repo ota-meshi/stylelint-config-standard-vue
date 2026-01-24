@@ -39,8 +39,8 @@ describe("Integration with stylelint-config-standard-scss", () => {
     process.chdir(
       path.join(
         __dirname,
-        "../fixtures/integrations/stylelint-config-standard-scss"
-      )
+        "../fixtures/integrations/stylelint-config-standard-scss",
+      ),
     );
     cp.execSync("npm i", { stdio: "inherit" });
   });
