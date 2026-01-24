@@ -32,4 +32,4 @@ jobs:
       - name: Install stylelint-config-standard
         run: npm install stylelint-config-standard@29 -f
       - name: Test
-        run: npm Test
+        run: npm test
