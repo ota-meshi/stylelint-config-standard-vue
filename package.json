@@ -34,7 +34,7 @@
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.3.0",
     "@ota-meshi/eslint-plugin": "^0.20.0",
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-jsdoc": "^62.4.0",
     "eslint-plugin-json-schema-validator": "^6.0.0",
