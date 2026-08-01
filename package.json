@@ -20,7 +20,8 @@
     "test": "mocha \"tests/lib/**/*.js\" --reporter dot --timeout 60000",
     "lint": "eslint .",
     "eslint-fix": "eslint . --fix",
-    "preversion": "npm test && git add ."
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
   },
   "dependencies": {
     "stylelint-config-html": ">=1.0.0",
@@ -32,6 +33,8 @@
     "stylelint": ">=14.0.0"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.31.1",
     "@eslint-community/eslint-plugin-eslint-comments": "^4.3.0",
     "@ota-meshi/eslint-plugin": "^0.20.0",
     "eslint": "^10.0.0",
