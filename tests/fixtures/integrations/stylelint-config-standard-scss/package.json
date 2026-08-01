@@ -10,6 +10,6 @@
     "stylelint-config-standard-scss": "^3.0.0"
   },
   "engines": {
-    "node": "^12 || >=14"
+    "node": "^22.12 || >=24"
   }
 }
