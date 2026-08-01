@@ -54,7 +54,7 @@ Not complying to this rule may result in broken Vue files parsing, generating co
 
 ### With SCSS
 
-Install `stylelint-config-standard-scss`:
+Install `stylelint-config-standard-scss` (v13.0.0 and above; it is an optional peer dependency, only needed for this config):
 
 ```shell
 npm install --save-dev stylelint-config-standard-scss
