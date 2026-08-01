@@ -21,8 +21,8 @@
     "lint": "eslint .",
     "eslint-fix": "eslint . --fix",
     "preversion": "npm test && git add .",
-    "version:ci": "changeset version",
-    "release": "changeset publish"
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
   },
   "dependencies": {
     "stylelint-config-html": ">=1.0.0",
