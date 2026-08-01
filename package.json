@@ -29,7 +29,7 @@
     "stylelint-config-standard": ">=24.0.0"
   },
   "peerDependencies": {
-    "postcss-html": "^1.0.0",
+    "postcss-html": "^2.0.0",
     "stylelint": ">=14.0.0"
   },
   "devDependencies": {
