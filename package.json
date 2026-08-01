@@ -24,8 +24,8 @@
     "changeset:publish": "changeset publish"
   },
   "dependencies": {
-    "stylelint-config-html": ">=1.0.0",
-    "stylelint-config-recommended-vue": ">=1.1.0",
+    "stylelint-config-html": ">=1.0.0 <2",
+    "stylelint-config-recommended-vue": ">=1.1.0 <2",
     "stylelint-config-standard": ">=24.0.0"
   },
   "peerDependencies": {
