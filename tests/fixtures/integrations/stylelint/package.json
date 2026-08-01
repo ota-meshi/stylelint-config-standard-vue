@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "postcss-html": "^1.0.0",
-    "stylelint": "^14.0.0",
+    "postcss-html": "^2.0.0",
+    "stylelint": "^16.0.0 || ^17.0.0",
     "stylelint-config-standard-vue": "file:../../../../",
-    "stylelint-config-standard": "^24.0.0"
+    "stylelint-config-standard": "^40.0.0"
   },
   "engines": {
     "node": "^22.12 || >=24"
