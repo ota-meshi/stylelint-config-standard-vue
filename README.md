@@ -27,7 +27,7 @@ To see the rules that this config uses, please read the [config itself](/lib/ind
 npm install --save-dev postcss-html stylelint-config-html stylelint-config-recommended-vue stylelint-config-standard stylelint-config-standard-vue
 ```
 
-The shared configs that this config extends (`stylelint-config-html`, `stylelint-config-recommended-vue`, and `stylelint-config-standard`) are peer dependencies, so you can control their versions from your own `package.json`. npm v7+ installs peer dependencies automatically; with other package managers you may need to install them explicitly.
+The shared configs that this config extends (`stylelint-config-html`, `stylelint-config-recommended-vue`, and `stylelint-config-standard`) are peer dependencies, so you can control their versions from your own `package.json`.
 
 ## :book: Usage
 
