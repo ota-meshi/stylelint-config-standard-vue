@@ -57,7 +57,6 @@
     "eslint-plugin-node-dependencies": "^2.2.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-regexp": "^3.0.0",
-    "eslint-plugin-vue": "^10.0.0",
     "eslint-plugin-yml": "^3.0.0",
     "mocha": "^10.0.0",
     "prettier": "^3.0.0",
