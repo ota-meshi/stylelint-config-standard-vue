@@ -1,6 +1,6 @@
-"use strict";
+import vueSpecificRules from "../lib/vue-specific-rules.js";
 
-module.exports = {
+const config = {
   // Stylelint v16+ requires the root config to provide a `rules` property.
   rules: {},
   overrides: [
@@ -10,7 +10,10 @@ module.exports = {
         "stylelint-config-standard-scss",
         "stylelint-config-recommended-vue/scss",
       ],
-      rules: require("../lib/vue-specific-rules"),
+      rules: vueSpecificRules,
     },
   ],
 };
+
+export default config;
+export { config as "module.exports" };
